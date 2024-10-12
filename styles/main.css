@@ -1,246 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Oswald&display=swap');
-:root {
-    --vertical-space: 2rem;
-    --horiz-space: 3rem;
-    --light-color: #DDDEC6;
-    --dark-color: #2B231F;
-    --heading-color: #000000;
-    --contrast-color: #960000;
-    --contrast-color-other: 102, 102, 102;
-}
 
+/* General Styles */
 body {
-    background-color: var(--light-color);
-    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-    font-size: 14px;
-    font-family: 'Barlow', sans-serif;
-    color: var(--dark-color);
-
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
 }
 
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Navbar Styles */
 .navbar {
-    background-color: var(--dark-color);
-    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
-    color: var(--light-color);
+    background-color: #343a40; /* Dark background color */
+    padding: 2px 20px; /* Add padding */
+    position: sticky; /* Make the navbar sticky */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Ensure it stays above other content */
 }
 
-.page-container {
-    margin-top: 110px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;   
+.navbar-brand, .nav-link {
+    color: #fff !important;
+    font-size: 1.3em; /* Increase font size */
 }
 
-.my-row {
+.nav-link:hover {
+    color: #d4d4d4 !important;
+}
+
+.navbar-nav {
+    margin-left: auto; /* Push the navbar items to the right */
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: center; /* Center the links */
+    gap: 20px; /* Add space between links */
+}
+/* Section Styles */
+h1, h2 {
+    color: #007bff;
     margin-bottom: 20px;
 }
 
-#firstPara {
-    display: grid;
+#about, #projects, #resume, #contact {
+    padding: 40px 0;
+    border-bottom: 1px solid #e9ecef;
 }
 
-#mainPage {
- background-color: rgba(var(--contrast-color-other), .4);
+#about p, #resume .education, #resume .experience {
+    font-size: 1.1em;
+    line-height: 1.6;
 }
 
-p {
-    margin: 0 1em;
-    right: 10%;
-    max-width: 55em;
-    line-height: 1.5em;
-    font-family: 'Barlow', sans-serif;
-}
-
-a {
-    color: var(--dark-color);
-    text-decoration: underline;
-    text-decoration-color: var(--contrast-color);
-}
-
-#quickAccess>li>a{
-    color: var(--light-color);
-    text-decoration-color: var(--contrast-color);
-}
-
-a:hover {
-    color: var(--contrast-color);
-}
-
-#quickAccess {
-    margin: 15px 0;
-}
-
-#aboutm {
-    padding-top: 1em;
-}
-
-h1,h2,h3 {
-    line-height: 1.2em;
-    font-family: 'Oswald', sans-serif;
-    color: var(--heading-color);
-}
-
-#name {
-    color: var(--light-color);
-}
-
-#headshot {
-    height: 15em;
-    border-radius: 3rem;
-    border-style: double;
-    border-color: var(--dark-color);
-    border-width: 7px;
-    justify-self: center;
-
-}
-
-body>footer {
-    grid-area: foot;
-    background-color: var(--dark-color);
-    color: var(--light-color);
-
-
-}
-
-
-header,
-footer {
-    padding-top: var(--vertical-space);
-    padding-bottom: 1.33rem;
-    font-family: 'Oswald', sans-serif;
-}
-
-header h1,
-footer h1 {
-    margin: 0;
-    font-family: 'Oswald', sans-serif;
-}
-
-body>* {
-    padding-left: var(--horiz-space);
-    padding-right: var(--horiz-space);
-}
-
-body>nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 2.5rem;
-
-}
-
-body>nav ul li {
-    display: inline;
-    padding-right: 2rem;
-    font-size: 1.25rem;
-}
-
-body#portfolio ul#portfolioItems {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    list-style-type: none;
-    padding: 0;
-}
-
-body#portfolio ul#portfolioItems li img {
+#about img {
     max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 
-@media screen and (min-width: 420px) {
-
-    body>nav ul li {
-        display: block;
-        font-size: 1.5rem;
-    }
-
-    .page-container {
-        margin-top: 150px;
-    }
-
-    
+/* Project Card Styles */
+.project {
+    background-color: #fff;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column; /* Make the card a flex container */
 }
 
-@media screen and (min-width: 576px) {
-    #firstPara {
-        display: flex;
-       
-    }
-    
-    
+.project:hover {
+    transform: translateY(-10px);
+}
 
-    
+.project img {
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.project .card-body {
+    padding: 20px;
+    flex: 1; /* Allow the card body to grow and take up available space */
+    display: flex;
+    flex-direction: column; /* Make the card body a flex container */
+    justify-content: space-between;
+    height: 100%;
+}
+
+.project .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project .card-text {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    flex: 1; /* Allow the card text to grow and take up available space */
+}
+
+.project .btn {
+    background-color: #007bff;
+    color: #fff;
+    align-self: flex-end; /* Align the button to the bottom */
+}
+
+.project .btn:hover {
+    background-color: #0056b3;
 }
 
 
-@media screen and (min-width: 768px) {
-    body {
-        font-size: 16px;
-    }
-
-    body#portfolio ul#portfolioItems li {
-        width: 24%;
-        flex-basis: 48%;
-        padding: 0 1%;
-    }
-    body>nav ul li {
-        display: inline;
-    }
-
-    body>nav ul {
-        margin-top: 2rem;
-    }
-    .page-container {
-        margin-top: 78px;
-    }
-
+/* Resume Styles */
+#resume .education, #resume .experience {
+    margin-bottom: 20px;
 }
 
-@media screen and (min-width: 992px) {
-    body {
-        font-size: 20px;
-    }
-
+#resume h4 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
 }
 
-@media screen and (min-width: 1200px) {
-    body {
-        font-size: 24px;
-    }
-
-   
-
+#resume p {
+    margin: 0;
 }
 
-body>footer a {
-    color: var(--light-color);
+/* Contact Styles */
+#contact p {
+    font-size: 1.1em;
 }
 
-body#resume li {
-    right: 10%;
-    max-width: 55em;
-    line-height: 1.5em;
-    font-family: 'Barlow', sans-serif;
-
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-#resumePage h2 {
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
     text-decoration: underline;
-}
-
-#toTopButton{
-    display: none;
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    background: var(--contrast-color);
-    color: var(--heading-color);
-    z-index: 999;
-}
-
-.material-icons{
-    font-size: 32px;
-    font-weight: bold;
 }

@@ -1,0 +1,59 @@
+[
+    {
+        "title": "Processor Design",
+        "description": "Collaborated on a small team with other student designers to build a microprocessor to run mathematical algorithms. Successfully designed and tested the microprocessor using Intel's Quartus software. Displayed my expertise on the processor by simulating it in Minecraft.",
+        "link": "links/Final Design Report.pdf",
+        "image": "images/processor-design.png"
+    },
+    {
+        "title": "Web Development: TypeSmart",
+        "description": "Developed a typing web app to improve and track typing speed. Implemented a Firebase NoSQL database backend to store user information.",
+        "link": "https://typesmrt.com/",
+        "image": "images/typesmart.PNG"
+    },
+    {
+        "title": "Software Quality: Dominion",
+        "description": "Collaborated with a team to develop a video game version of the classic card game Dominion. Utilized test-driven development methods to ensure minimal code rework. Programmed in C# using the .NET framework, achieving 100% branch and mutation coverage.",
+        "image": "images/dominion.PNG"
+    },
+    {
+        "title": "Thread Design",
+        "description": "Designed and implemented threads in the xv6 educational operating system.",
+        "image": "images/no-image.jpg"
+    },
+    {
+        "title": "SQL Database: Build Buddy",
+        "description": "Built a SQL database and frontend to allow users to sort and search computer parts and create compatible builds.",
+        "image": "images/build-buddy.PNG"
+    },
+    {
+        "title": "Object-Oriented Programming: Joust",
+        "description": "Developed in Java. A recreation of the classic arcade game joust with a few additions such as new enemy movements and turrets. The project utilizes object-oriented design principles.",
+        "link": "https://github.com/rhit-doolitge/CSSE220-Joust-Project-Doolitge",
+        "image": "images/joust.png"
+    },
+    {
+        "title": "Python Development: Binding of Garrett",
+        "description": "An engaging Python-based dungeon crawler-style game that I developed, inspired by \"The Binding of Isaac.\" It showcases my skills in game design and development.",
+        "link": "https://github.com/rhit-doolitge/CSSE-120-Binding-Of-Garrett",
+        "image": "images/binding-of-garrett.png"
+    },
+    {
+        "title": "Web Development: Friendly Biking Surfaces",
+        "description": "Created an online web app that enables users to build biking routes as well as post and view trail hazards. My project partner and I were challenged with making use of the Mapbox API to create routes.",
+        "link": "https://friendlybikingsurfaces.web.app/mainPage.html",
+        "image": "images/web-app.png"
+    },
+    {
+        "title": "Concept Development: SpaceVac",
+        "description": "A StartUp Weekend project. My team and I transformed the idea of SpaceVac, a space debris cleaning service, from a fun brainstorming concept to a fully developed business plan in one weekend.",
+        "link": "links/Startup Weekend Final Presentation.pdf",
+        "image": "images/spacevac.png"
+    },
+    {
+        "title": "Product Refinement:  Black + Decker Drill",
+        "description": "Collaboratively worked with a team to analyze a product from Amazon, research customer feedback, brainstorm refinements, introduce new features, create a bill of materials, and identify production cost reductions.",
+        "link": "links/Product improvement.pdf",
+        "image": "images/product-refinement.png"
+    }
+]

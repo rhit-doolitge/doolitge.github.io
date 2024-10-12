@@ -1,71 +1,70 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
-  <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
-  <link rel="stylesheet" href="styles/main.css">
-  <title>Garrett Doolittle</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garrett Doolittle - Software Engineer</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles/main.css">
 </head>
-
 <body>
-  <nav class="navbar navbar-dark fixed-top">
-    <h1 id="name">Garrett Doolittle</h1>
-    <div>
-      <ul id="quickAccess">
-        <li><a href="index.html"> About</a></li>
-        <li><a href="portfolio.html"> Portfolio</a></li>
-        <li><a href="resume.html"> Resume</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Garrett Doolittle</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>       
+    <div class="container">
+        <div id="about" class="container mt-2">
+            <!-- Bio will be loaded here -->
+        </div>
+        <div id="projects" class="container mt-2">
+            <h1>Projects</h1>
+            <!-- Projects will be loaded here -->
+        </div>
+        <div id="resume" class="container mt-2">
+            <h1>Resume</h1>
+            <!-- Resume will be loaded here -->
+        </div>
+        <div id="contact" class="container mt-2">
+            <h1>Contact</h1>
+            <p>Email: doolitge@rose-hulman.edu</p>
+            <p><a href="www.linkedin.com/in/garrett-doolittle-0927912a2">LinkedIn</a></p>
+            <p><a href="https://github.com/rhit-doolitge">GitHub</a></p>
+        </div>
     </div>
-  </nav>
-  <div id="mainPage" class="container page-container">
-    <div class="my-row">
-      <h1 id="aboutm">About</h1>
-    </div>
-    <div id="firstPara" class="my-row">
-      <img id="headshot" src="images/headshotBetter.jpg ">
-      <p id="paragraph1">I am a dedicated student currently enrolled at Rose-Hulman Institute of Technology. Within the
-        academic and extracurricular realm of the institution, I proudly participate in the SmallSat and Zoology clubs, which I
-        find quite fulfilling. My primary academic pursuit revolves around obtaining a Bachelor of Science degree in
-        Software Engineering. I possess proficiency in various programming languages, including Java, Python, C, C++, and C#
-        as well as web development languages like HTML, CSS, and JavaScript. Additionally, I have a
-        solid foundation in coding with ARM and RISC-V assembly languages. 
-      </p>
-    </div>
-    <div class="my-row">
-      <p>
+    <footer>
+        <p><a href="https://github.com/rhit-doolitge" target="_blank">GitHub</a> | <a href="www.linkedin.com/in/garrett-doolittle-0927912a2" target="_blank">LinkedIn</a></p>
+    </footer>
 
-        Prior to my enrollment at Rose-Hulman, I was a student at Chisago Lakes High School in Lindstrom, Minnesota.
-        During my time there, I not only achieved my high school diploma but also completed my Associate of Arts
-        Degree with the highest honors. This accomplishment was made possible through dual enrollment at Lake
-        Superior College, located in Duluth, Minnesota. Additionally, I had the privilege of serving as the captain
-        of the Chisago Lakes/North Branch robotics team and the Chisago Lakes Math League team. Beyond my academic
-        and extracurricular achievements, I proudly contributed to my school and community as a member of the National
-        Honor Society, the Student Council, and as an Eagle Scout. 
-      </p>
+    <!-- Modal -->
+<div class="modal fade" id="academicHonestyModal" tabindex="-1" aria-labelledby="academicHonestyModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="academicHonestyModalLabel">Academic Honesty Notice</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                My professor has instructed that we cannot share any details about this project to maintain academic honesty.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
     </div>
-    </main>
-    
-
-  </div>
-  <footer id= "aboutPageFooter">
-    <ul>
-      <li>School Email: Doolitge@rose-hulman.edu</li>
-      <li>Personal Email: GarrettDoolittle10@gmail.com</li>
-      <li>Phone: 612-979-5446</li>
-
-    </ul>
-  </footer>
-  <script src="scripts/jquery.min.js"></script>
-  <script src="scripts/popper.js"></script>
-  <script src="scripts/bootstrap-material-design.js"></script>
-  <script>
-    $("body").bootstrapMaterialDesign();
-  </script>
-  <script src="scripts/main.js"></script>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts/main.js"></script>
 </body>
-
 </html>

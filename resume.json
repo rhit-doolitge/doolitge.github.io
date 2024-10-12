@@ -1,0 +1,111 @@
+{
+    "education": [
+        {
+            "degree": "B.S. in Software Engineering and Computer Science",
+            "institution": "Rose-Hulman Institute of Technology, Terre Haute, IN",
+            "gpa": "3.97/4.0",
+            "graduation": "Expected May 2026",
+            "minor": "German",
+            "honors": ["Dean’s List (Fall 2022, Winter 2022, Spring 2023, Fall 2023, Winter 2023, Spring 2024)"],
+            "courses": ["Object Oriented Softwae Development", "Data Structures and Algorithms", "Software Design", "Software Project Management", "Software Quality Assurance", "Intro to Systems Programming", "Operating Systems", "Intro to Computer Architecture", "Intro to Web Development", "Databases", "Software Requirements Engineering"]
+        },
+        {
+            "degree": "Associate of Arts",
+            "institution": "Lake Superior College, Duluth, MN",
+            "gpa": "4.0/4.0",
+            "graduation": "June 2022",
+            "honors": ["Highest Honors"]
+        }
+    ],
+    "experience": [
+        {
+            "title": "Robotics Engineering Intern",
+            "company": "The Toro Company, Bloomington, MN",
+            "dates": "May 2024 – August 2024",
+            "responsibilities": [
+                "Developed an OTA operating system update solution for autonomous mowers, ensuring continued support.",
+                "Modified the on-machine NTRIP Client to follow the RTCM standard, resolving a 10% reconnection issue.",
+                "Detected and removed memory leaks totaling 40 KB/s, improving machine runtime."
+            ]
+        },
+        {
+            "title": "Part-Time Software Engineering Intern",
+            "company": "The Toro Company – Remote",
+            "dates": "September 2024 – Present",
+            "responsibilities": [
+                "Supporting machine provisioning through production.",
+                "Developing image recognition software for an upcoming autonomy project."
+            ]
+        },
+        {
+            "title": "Sophomore Resident Tutor",
+            "company": "Rose-Hulman Institute of Technology, Terre Haute, IN",
+            "dates": "August 2024 – Present",
+            "responsibilities": [
+                "Writing and conducting exam review sessions for sophomore-level software engineering courses.",
+                "Holding 8 tutor hours weekly to support student learning.",
+                "Fostering a community as a live-in peer tutor, balancing academic success with fun."
+            ]
+        },
+        {
+            "title": "CSSE Department Teaching Assistant",
+            "company": "Rose-Hulman Institute of Technology, Terre Haute, IN",
+            "dates": "March 2024 – May 2024",
+            "responsibilities": [
+                "Tutored students on database concepts through assignments and labs.",
+                "Graded assignments and provided feedback to promote learning."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "title": "Dominion – Software Quality",
+            "description": [
+                "Collaborated with a team to develop a video game version of the classic card game Dominion.", 
+                "Utilized test-driven development methods to ensure minimal code rework.",
+                "Programmed in C# using the .NET framework, achieving 100% branch and mutation coverage."
+            ]
+        },
+        {
+            "title": "Micro Processor Design",
+            "description": [
+                "Designed and implemented a 16-bit microprocessor using Verilog with a team.",
+                "Created an assembly language and an assembler for the microprocessor."
+            ]
+        },
+        {
+            "title": "Database Creation",
+            "description": [
+                "Built a SQL database and frontend to allow users to sort and search computer parts and create compatible builds."
+            ]
+        },
+        {
+            "title": "TypeSmart",
+            "description": [
+                "Developed a typing app to improve and track typing speed using HTML, CSS, and JavaScript.",
+                "Implemented a Firebase NoSQL database backend to store user information."
+            ]
+        },
+        {
+            "title": "Threads Project",
+            "description": [
+                "Designed and implemented threads in the xv6 educational operating system."
+            ]
+        }
+    ],
+    "achievements": [
+        {
+            "title": "Boy Scouts of America (Eagle Scout)",
+            "dates": "2009 - 2022",
+            "description": [
+                "Eagle Project: Installed 21 wayfinding and natural feature signs at Allemansratt Park, Lindstrom, MN."
+            ]
+        }
+    ],
+    "skills": [
+        "Java", "Python", "C", "C++", "C#", "HTML", "CSS", "JavaScript", "Scheme", "Bash", "SQL"
+    ],
+    "tools": [
+        "Windows Systems", "Unix Systems", "Inventor Pro", "Fusion 360", "Microsoft and Google Suites", "LaTeX"
+    ]
+}

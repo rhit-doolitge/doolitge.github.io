@@ -1,0 +1,8 @@
+{
+    "name": "Your Name",
+    "bio": [
+        "I am a dedicated student currently enrolled at Rose-Hulman Institute of Technology. Within the academic and extracurricular realm of the institution, I proudly participate in the SmallSat and Zoology clubs, which I find quite fulfilling. My primary academic pursuit revolves around obtaining a Bachelor of Science degree in Software Engineering. I possess proficiency in various programming languages, including Java, Python, C, C++, and C# as well as web development languages like HTML, CSS, and JavaScript. Additionally, I have a solid foundation in coding with ARM and RISC-V assembly languages.", 
+        "Prior to my enrollment at Rose-Hulman, I was a student at Chisago Lakes High School in Lindstrom, Minnesota. During my time there, I not only achieved my high school diploma but also completed my Associate of Arts Degree with the highest honors. This accomplishment was made possible through dual enrollment at Lake Superior College, located in Duluth, Minnesota. Additionally, I had the privilege of serving as the captain of the Chisago Lakes/North Branch robotics team and the Chisago Lakes Math League team. Beyond my academic and extracurricular achievements, I proudly contributed to my school and community as a member of the National Honor Society, the Student Council, and as an Eagle Scout."
+    ],
+    "image": "images/headshot.png"
+}
